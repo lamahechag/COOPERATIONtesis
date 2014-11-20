@@ -1,0 +1,1308 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2010.8.28)  13 NOV 2012 16:17
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**thesis.tex
+(./thesis.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, basque, danish, dutch, finnish, french, german, ngerman, hungarian,
+ italian, bokmal, nynorsk, polish, portuguese, spanish, swedish, ukenglish, loa
+ded.
+(./Classes/CUEDthesisPSnPDF.cls
+
+LaTeX Warning: You have requested document class `Classes/CUEDthesisPSnPDF',
+               but the document class provides `CUEDthesisPSnPDF'.
+
+Document Class: CUEDthesisPSnPDF 2010/07/14 v1.1 CUED thesis class
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) (./tocbibind.sty
+Package: tocbibind 2003/02/04 v1.5f extra ToC listings
+
+
+Package tocbibind Note: The document has chapter divisions.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/usr/local/texlive/2009basic/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/amsfonts/eucal.sty
+Package: eucal 2009/06/22 v3.00 Euler Script fonts
+LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
+(Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
+)
+(/usr/local/texlive/2009basic/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2008/07/06 v3.8l The Babel package
+
+(/usr/local/texlive/2009basic/texmf-dist/tex/generic/babel/english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+(/usr/local/texlive/2009basic/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2008/07/06 v3.8l Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+\Gread@gobject=\count89
+)
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(./footmisc.sty
+Package: footmisc 2005/03/17 v5.3d a miscellany of footnote facilities
+\FN@temptoken=\toks15
+\footnotemargin=\dimen104
+\c@pp@next@reset=\count90
+\c@@fnserial=\count91
+Package footmisc Info: Declaring symbol style bringhurst on input line 817.
+Package footmisc Info: Declaring symbol style chicago on input line 818.
+Package footmisc Info: Declaring symbol style wiley on input line 819.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 823.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 831.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 840
+.
+)
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2009/11/07 8.31a (PWD, AO)
+\bibhang=\skip52
+\bibsep=\skip53
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count92
+)
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2009basic/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(./nomencl.sty
+Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
+\nomlabelwidth=\dimen105
+\nom@tempdim=\dimen106
+\nomitemsep=\skip54
+)
+\@nomenclaturefile=\write3
+\openout3 = `thesis.nlo'.
+
+
+Writing nomenclature file thesis.nlo
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2010/01/11 v6.80b Hypertext links for LaTeX
+
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2009basic/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2009/12/22 v1.7 Key value parser (HO)
+
+(/usr/local/texlive/2009basic/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+(/usr/local/texlive/2009basic/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))
+(/usr/local/texlive/2009basic/texmf-dist/tex/generic/oberdiek/pdfescape.sty
+Package: pdfescape 2007/11/11 v1.8 Provides hex, PDF name and string conversion
+s (HO)
+
+(/usr/local/texlive/2009basic/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2009/12/12 v0.7 Utility functions of pdfTeX for LuaTeX (HO)
+
+
+(/usr/local/texlive/2009basic/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2009basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2009/12/12 v1.1 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+))
+(/usr/local/texlive/2009basic/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2009basic/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+)
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/oberdiek/hycolor.sty
+Package: hycolor 2009/12/12 v1.6 Color options of hyperref/bookmark (HO)
+
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/oberdiek/xcolor-patch.sty
+Package: xcolor-patch 2009/12/12 xcolor patch
+))
+\@linkdim=\dimen107
+\Hy@linkcounter=\count93
+\Hy@pagecounter=\count94
+
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2010/01/11 v6.80b Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/local/texlive/2009basic/texmf-dist/tex/generic/oberdiek/intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2009/12/08 v3.6 Keyval support for LaTeX options (HO)
+)
+Package hyperref Info: Option `plainpages' set `false' on input line 3209.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 3209.
+Package hyperref Info: Option `bookmarks' set `true' on input line 3209.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 3209.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 3209
+.
+Package hyperref Info: Option `breaklinks' set `true' on input line 3209.
+Package hyperref Info: Option `linktocpage' set `true' on input line 3209.
+Package hyperref Info: Option `colorlinks' set `true' on input line 3209.
+Package hyperref Info: Option `hyperindex' set `true' on input line 3209.
+Package hyperref Info: Option `hyperfigures' set `true' on input line 3209.
+Package hyperref Info: Hyper figures ON on input line 3288.
+Package hyperref Info: Link nesting OFF on input line 3295.
+Package hyperref Info: Hyper index ON on input line 3298.
+Package hyperref Info: Plain pages OFF on input line 3305.
+Package hyperref Info: Backreferencing ON on input line 3308.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 3506.
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/hyperref/backref.sty
+Package: backref 2010/01/09 v1.32 Bibliographical back referencing
+
+(/usr/local/texlive/2009basic/texmf-dist/tex/generic/oberdiek/rerunfilecheck.st
+y
+Package: rerunfilecheck 2009/12/18 v1.2 Rerun checks for auxiliary files (HO)
+ (/usr/local/texlive/2009basic/texmf-dist/tex/generic/oberdiek/atveryend.sty
+Package: atveryend 2009/12/11 v1.3 Hooks at very end of document (HO)
+Package atveryend Info: \enddocument detected (standard).
+)
+(/usr/local/texlive/2009basic/texmf-dist/tex/generic/oberdiek/uniquecounter.sty
+Package: uniquecounter 2009/12/18 v1.1 Provides unlimited unique counter (HO)
+(/usr/local/texlive/2009basic/texmf-dist/tex/generic/oberdiek/bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+))
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 3
+26.
+)) (/usr/local/texlive/2009basic/texmf-dist/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 3743.
+
+(/usr/local/texlive/2009basic/texmf-dist/tex/generic/oberdiek/bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+)
+\Fld@menulength=\count95
+\Field@Width=\dimen108
+\Fld@charsize=\dimen109
+\Field@toks=\toks17
+Package hyperref Info: Hyper figures ON on input line 4700.
+Package hyperref Info: Link nesting OFF on input line 4707.
+Package hyperref Info: Hyper index ON on input line 4710.
+Package hyperref Info: backreferencing ON on input line 4715.
+Package hyperref Info: Link coloring ON on input line 4720.
+Package hyperref Info: Link coloring with OCG OFF on input line 4727.
+Package hyperref Info: PDF/A mode OFF on input line 4732.
+
+(/usr/local/texlive/2009basic/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2009/12/02 v1.10 At begin shipout hook (HO)
+)
+\Hy@abspage=\count96
+\c@Item=\count97
+\c@Hfootnote=\count98
+)
+*hyperref using driver hpdftex*
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2010/01/11 v6.80b Hyperref driver for pdfTeX
+\Fld@listcount=\count99
+\c@bookmark@seq@number=\count100
+\Hy@SectionHShift=\skip55
+)
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen110
+\Gin@req@width=\dimen111
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 165.
+
+) (/usr/local/texlive/2009basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip56
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks18
+\ex@=\dimen112
+))
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen113
+)
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count101
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count102
+\leftroot@=\count103
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count104
+\DOTSCASE@=\count105
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen114
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count106
+\c@MaxMatrixCols=\count107
+\dotsspace@=\muskip11
+\c@parentequation=\count108
+\dspbrk@lvl=\count109
+\tag@help=\toks19
+\row@=\count110
+\column@=\count111
+\maxfields@=\count112
+\andhelp@=\toks20
+\eqnshift@=\dimen115
+\alignsep@=\dimen116
+\tagshift@=\dimen117
+\tagwidth@=\dimen118
+\totwidth@=\dimen119
+\lineht@=\dimen120
+\@envbody=\toks21
+\multlinegap=\skip57
+\multlinetaggap=\skip58
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks23
+\verbatim@line=\toks24
+\verbatim@in@stream=\read1
+)
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/tools/layout.sty
+Package: layout 2000/09/25 v1.2c Show layout parameters
+\oneinch=\count113
+\cnt@paperwidth=\count114
+\cnt@paperheight=\count115
+\cnt@hoffset=\count116
+\cnt@voffset=\count117
+\cnt@textheight=\count118
+\cnt@textwidth=\count119
+\cnt@topmargin=\count120
+\cnt@oddsidemargin=\count121
+\cnt@evensidemargin=\count122
+\cnt@headheight=\count123
+\cnt@headsep=\count124
+\cnt@marginparsep=\count125
+\cnt@marginparwidth=\count126
+\cnt@marginparpush=\count127
+\cnt@footskip=\count128
+\fheight=\count129
+\ref@top=\count130
+\ref@hoffset=\count131
+\ref@voffset=\count132
+\ref@head=\count133
+\ref@body=\count134
+\ref@foot=\count135
+\ref@margin=\count136
+\ref@marginwidth=\count137
+\ref@marginpar=\count138
+\Interval=\count139
+\ExtraYPos=\count140
+\PositionX=\count141
+\PositionY=\count142
+\ArrowLength=\count143
+)
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count144
+\float@exts=\toks25
+\float@box=\box28
+\@float@everytoks=\toks26
+\@floatcapt=\box29
+)
+(./StyleFiles/watermark.sty
+
+LaTeX Warning: You have requested package `StyleFiles/watermark',
+               but the package provides `watermark'.
+
+Package: watermark 2002/01/29 v1.00 Watermarks (NCC)
+) (./thesis.aux (./Dedication/dedication.aux)
+(./Acknowledgement/acknowledgement.aux) (./Abstract/abstract.aux)
+(./Introduction/introduction.aux) (./NaturalSelection/chapter1.aux)
+(./DeterministicModelofReproductionandSelection/chapter2.aux)
+(./MarkovChain/chapter3.aux) (./GameTheory/chapter4.aux)
+(./FromStochastic/chapter5.aux) (./NoDeterministic/chapter6.aux
+
+LaTeX Warning: Label `Fig7.4' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `Fig7.2' multiply defined.
+
+
+LaTeX Warning: Label `Fig7.2' multiply defined.
+
+
+LaTeX Warning: Label `Fig7.3' multiply defined.
+
+
+LaTeX Warning: Label `Fig7.4' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+) (./StochasticCooperation/chapter7.aux) (./Conclusions/conclusions.aux)
+(./Appendix1/appendix1.aux) (./Appendix2/appendix2.aux)
+
+./thesis.aux:90: Package natbib Error: Bibliography not compatible with author-
+year citations.
+(natbib)                Press <return> to continue in numerical citation style.
+
+
+See the natbib package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...mand\NAT@force@numbers{}\NAT@force@numbers
+                                                  
+? 
+)
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+ (/usr/local/texlive/2009basic/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count145
+\scratchdimen=\dimen121
+\scratchbox=\box30
+\nofMPsegments=\count146
+\nofMParguments=\count147
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count148
+\MPscratchDim=\dimen122
+\MPnumerator=\count149
+\everyMPtoPDFconversion=\toks28
+)
+Package hyperref Info: Link coloring ON on input line 58.
+ (/usr/local/texlive/2009basic/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2009/12/18 v2.35 Cross-referencing by name of section
+
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/oberdiek/refcount.sty
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+(/usr/local/texlive/2009basic/texmf-dist/tex/generic/oberdiek/gettitlestring.st
+y
+Package: gettitlestring 2009/12/18 v1.3 Cleanup title references (HO)
+)
+\c@section@level=\count150
+)
+LaTeX Info: Redefining \ref on input line 58.
+LaTeX Info: Redefining \pageref on input line 58.
+ (./thesis.out) (./thesis.out)
+\@outlinefile=\write4
+\openout4 = `thesis.out'.
+
+Package backref Info: ** backref set up for natbib ** on input line 58.
+\AtBeginShipoutBox=\box31
+
+<ThesisFigs/logo_andes.jpg, id=134, 120.45pt x 125.268pt>
+File: ThesisFigs/logo_andes.jpg Graphic file (type jpg)
+
+<use ThesisFigs/logo_andes.jpg> [0
+
+{/usr/local/texlive/2009basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./
+ThesisFigs/logo_andes.jpg>] [1]
+\openout2 = `Dedication/dedication.aux'.
+
+
+(./Dedication/dedication.texpdfTeX warning (ext4): destination with the same id
+entifier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.7 \end{dedication}
+                     [1
+
+
+])
+\openout2 = `Acknowledgement/acknowledgement.aux'.
+
+ (./Acknowledgement/acknowledgement.tex [2
+
+
+])
+\openout2 = `Abstract/abstract.aux'.
+
+
+(./Abstract/abstract.tex [3
+
+
+]) (./thesis.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 8.
+
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 8.
+
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+) [4
+\FN@pp@footnotehinttrue 
+
+
+])
+\tf@toc=\write5
+\openout5 = `thesis.toc'.
+
+ [5] (./thesis.lof
+Overfull \hbox (82.04778pt too wide) in paragraph at lines 17--17
+ [][] []\OT1/cmr/m/n/10 Illustration of co-op-er-a-tion be-tween White shark an
+d Pi-lot fish(www.pioneermindset.wordpress.com). [][]  
+ []
+
+[6
+
+] [7] [8] [9])
+\tf@lof=\write6
+\openout6 = `thesis.lof'.
+
+
+No file thesis.nls.
+[10]
+\openout2 = `Introduction/introduction.aux'.
+
+ (./Introduction/introduction.tex
+ 1.
+) [1
+
+
+
+]
+\openout2 = `NaturalSelection/chapter1.aux'.
+
+ (./NaturalSelection/chapter1.tex
+ 2.
+[2
+
+
+
+]) [3]
+\openout2 = `DeterministicModelofReproductionandSelection/chapter2.aux'.
+
+ (./DeterministicModelofReproductionandSelection/chapter2.tex
+ 3.
+[4
+
+
+
+] [5] [6]
+<DeterministicModelofReproductionandSelection/Chapter2Figs/DeterministicSelecti
+on.pdf, id=357, 682.55pt x 481.8pt>
+File: DeterministicModelofReproductionandSelection/Chapter2Figs/DeterministicSe
+lection.pdf Graphic file (type pdf)
+
+<use DeterministicModelofReproductionandSelection/Chapter2Figs/DeterministicSel
+ection.pdf>
+<DeterministicModelofReproductionandSelection/Chapter2Figs/DominanceTimeVsIniti
+alx.pdf, id=358, 682.55pt x 481.8pt>
+File: DeterministicModelofReproductionandSelection/Chapter2Figs/DominanceTimeVs
+Initialx.pdf Graphic file (type pdf)
+
+<use DeterministicModelofReproductionandSelection/Chapter2Figs/DominanceTimeVsI
+nitialx.pdf> [7pdfTeX warning (ext4): destination with the same identifier (nam
+e{figure.3.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.99 
+      <./DeterministicModelofReproductionandSelection/Chapter2Figs/Deterministi
+cSelection.pdf>]) [8pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.3.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.100 ...ModelofReproductionandSelection/chapter2}
+                                                   <./DeterministicModelofRepro
+ductionandSelection/Chapter2Figs/DominanceTimeVsInitialx.pdf>]
+\openout2 = `MarkovChain/chapter3.aux'.
+
+
+(./MarkovChain/chapter3.tex
+ 4.
+<MarkovChain/Chapter3Figs/moranprocess.pdf, id=398, 794.97pt x 614.295pt>
+File: MarkovChain/Chapter3Figs/moranprocess.pdf Graphic file (type pdf)
+
+<use MarkovChain/Chapter3Figs/moranprocess.pdf> [9
+
+
+
+]
+<MarkovChain/Chapter3Figs/markovchain.pdf, id=405, 794.97pt x 614.295pt>
+File: MarkovChain/Chapter3Figs/markovchain.pdf Graphic file (type pdf)
+
+<use MarkovChain/Chapter3Figs/markovchain.pdf> [10pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.4.1}) has been already used, duplic
+ate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.53 \begin{equation}
+                     \label{4.1}pdfTeX warning (ext4): destination with the sam
+e identifier (name{figure.4.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.53 \begin{equation}
+                     \label{4.1} <./MarkovChain/Chapter3Figs/moranprocess.pdf> 
+<./MarkovChain/Chapter3Figs/markovchain.pdf>]
+<MarkovChain/Chapter3Figs/markovchainMoran.pdf, id=424, 1110.1475pt x 511.9125p
+t>
+File: MarkovChain/Chapter3Figs/markovchainMoran.pdf Graphic file (type pdf)
+ <use MarkovChain/Chapter3Figs/markovchainMoran.pdf> [11pdfTeX warning (ext4): 
+destination with the same identifier (name{figure.4.3}) has been already used, 
+duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.77 \end{equation}
+                    <./MarkovChain/Chapter3Figs/markovchainMoran.pdf>]
+<MarkovChain/Chapter3Figs/moransimulation.pdf, id=441, 682.55pt x 481.8pt>
+File: MarkovChain/Chapter3Figs/moransimulation.pdf Graphic file (type pdf)
+
+<use MarkovChain/Chapter3Figs/moransimulation.pdf>
+<MarkovChain/Chapter3Figs/array.pdf, id=442, 1110.1475pt x 1110.1475pt>
+File: MarkovChain/Chapter3Figs/array.pdf Graphic file (type pdf)
+
+<use MarkovChain/Chapter3Figs/array.pdf> [12pdfTeX warning (ext4): destination 
+with the same identifier (name{figure.4.4}) has been already used, duplicate ig
+nored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.113 
+       <./MarkovChain/Chapter3Figs/moransimulation.pdf>] [13pdfTeX warning (ext
+4): destination with the same identifier (name{figure.4.5}) has been already us
+ed, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.126 \end{equation}
+                     <./MarkovChain/Chapter3Figs/array.pdf>]
+<MarkovChain/Chapter3Figs/bmoran1.pdf, id=479, 849.1725pt x 596.2275pt>
+File: MarkovChain/Chapter3Figs/bmoran1.pdf Graphic file (type pdf)
+
+<use MarkovChain/Chapter3Figs/bmoran1.pdf>
+<MarkovChain/Chapter3Figs/bmoran.pdf, id=480, 849.1725pt x 596.2275pt>
+File: MarkovChain/Chapter3Figs/bmoran.pdf Graphic file (type pdf)
+
+<use MarkovChain/Chapter3Figs/bmoran.pdf> [14]
+<MarkovChain/Chapter3Figs/NeutralDriftPro.pdf, id=495, 682.55pt x 481.8pt>
+File: MarkovChain/Chapter3Figs/NeutralDriftPro.pdf Graphic file (type pdf)
+
+<use MarkovChain/Chapter3Figs/NeutralDriftPro.pdf> [15pdfTeX warning (ext4): de
+stination with the same identifier (name{figure.4.6}) has been already used, du
+plicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.183 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{figure.4.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.183 \begin{equation}
+                       <./MarkovChain/Chapter3Figs/bmoran1.pdf> <./MarkovChain/
+Chapter3Figs/bmoran.pdf> <./MarkovChain/Chapter3Figs/NeutralDriftPro.pdf>]
+[16] <MarkovChain/Chapter3Figs/Plot.pdf, id=536, 682.55pt x 481.8pt>
+File: MarkovChain/Chapter3Figs/Plot.pdf Graphic file (type pdf)
+
+<use MarkovChain/Chapter3Figs/Plot.pdf> [17pdfTeX warning (ext4): destination w
+ith the same identifier (name{figure.4.8}) has been already used, duplicate ign
+ored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.240 \end{equation}
+                     <./MarkovChain/Chapter3Figs/Plot.pdf>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 244.
+
+
+(/usr/local/texlive/2009basic/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 244.
+ [18]
+[19] [20]) [21]
+\openout2 = `GameTheory/chapter4.aux'.
+
+ (./GameTheory/chapter4.tex
+ 5.
+[22
+
+
+
+] <GameTheory/Figs/mutualism.png, id=613, 297.11pt x 199.74625pt>
+File: GameTheory/Figs/mutualism.png Graphic file (type png)
+
+<use GameTheory/Figs/mutualism.png> [23pdfTeX warning (ext4): destination with 
+the same identifier (name{figure.5.1}) has been already used, duplicate ignored
+
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.37 \begin{equation*}
+                       <./GameTheory/Figs/mutualism.png (PNG copy)>] [24]
+[25] [26] [27]
+Overfull \hbox (51.70781pt too wide) detected at line 176
+[] \OML/cmm/m/it/12 ^^Y[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 j\OT1/cmr/m/n/12 ) =
+ [](\OML/cmm/m/it/12 k\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 Pn \OMS/cmsy/m/n/12 ^^@
+ \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 ) + (\OML/cmm/m/it/12 T \OMS/cmsy/m/n/12 ^^@
+ \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 ) [] \OML/cmm/m/it/12 j\OT1/cmr/m/n/12 )  \O
+ML/cmm/m/it/12 ;  [] ^^Y[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 j\OT1/cmr/m/n/12 ) 
+= [](\OML/cmm/m/it/12 k\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 Sn \OMS/cmsy/m/n/12 ^^
+@ \OML/cmm/m/it/12 R\OT1/cmr/m/n/12 ) + (\OML/cmm/m/it/12 R \OMS/cmsy/m/n/12 ^^
+@ \OML/cmm/m/it/12 S\OT1/cmr/m/n/12 ) [] \OML/cmm/m/it/12 j\OT1/cmr/m/n/12 )
+ []
+
+[28] [29] [30]
+<GameTheory/Figs/GroupSelection1.pdf, id=707, 910.40125pt x 1422.31375pt>
+File: GameTheory/Figs/GroupSelection1.pdf Graphic file (type pdf)
+
+<use GameTheory/Figs/GroupSelection1.pdf>
+<GameTheory/Figs/GroupSelection2.pdf, id=709, 910.40125pt x 1422.31375pt>
+File: GameTheory/Figs/GroupSelection2.pdf Graphic file (type pdf)
+
+<use GameTheory/Figs/GroupSelection2.pdf> [31pdfTeX warning (ext4): destination
+ with the same identifier (name{figure.5.2}) has been already used, duplicate i
+gnored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.243 \begin{equation}
+                       <./GameTheory/Figs/GroupSelection1.pdf> <./GameTheory/Fi
+gs/GroupSelection2.pdf>] [32]
+<GameTheory/Figs/m10n10q0001.pdf, id=744, 682.55pt x 481.8pt>
+File: GameTheory/Figs/m10n10q0001.pdf Graphic file (type pdf)
+
+<use GameTheory/Figs/m10n10q0001.pdf> [33] [34pdfTeX warning (ext4): destinatio
+n with the same identifier (name{figure.5.3}) has been already used, duplicate 
+ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.304 \begin{equation}
+                       <./GameTheory/Figs/m10n10q0001.pdf>]
+Overfull \hbox (60.63602pt too wide) detected at line 310
+\OT1/cmr/m/n/12 ^^H[](\OML/cmm/m/it/12 n; m\OT1/cmr/m/n/12 ) = [] [] \OML/cmm/m
+/it/12 :
+ []
+
+
+Overfull \hbox (71.47191pt too wide) detected at line 318
+\OT1/cmr/m/n/12 ^^H[]()\OML/cmm/m/it/12 n; m\OT1/cmr/m/n/12 ) = [] [] \OML/cmm/
+m/it/12 :
+ []
+
+<GameTheory/Figs/groupselection.pdf, id=776, 682.55pt x 481.8pt>
+File: GameTheory/Figs/groupselection.pdf Graphic file (type pdf)
+
+<use GameTheory/Figs/groupselection.pdf> [35]
+<GameTheory/Figs/bcratio.pdf, id=787, 556.31808pt x 391.79443pt>
+File: GameTheory/Figs/bcratio.pdf Graphic file (type pdf)
+
+<use GameTheory/Figs/bcratio.pdf> [36pdfTeX warning (ext4): destination with th
+e same identifier (name{figure.5.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.353    \end{figure}
+                      <./GameTheory/Figs/groupselection.pdf>]) [37pdfTeX warnin
+g (ext4): destination with the same identifier (name{figure.5.5}) has been alre
+ady used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.102 \include{GameTheory/chapter4}
+                                    <./GameTheory/Figs/bcratio.pdf>]
+\openout2 = `FromStochastic/chapter5.aux'.
+
+
+(./FromStochastic/chapter5.tex
+ 6.
+[38
+
+
+
+] [39] [40] [41] [42] [43]
+<Fromstochastic/Figs/RandomDriftSimulations5.pdf, id=982, 682.55pt x 481.8pt>
+File: Fromstochastic/Figs/RandomDriftSimulations5.pdf Graphic file (type pdf)
+
+<use Fromstochastic/Figs/RandomDriftSimulations5.pdf>
+<Fromstochastic/Figs/SelectionVsRandom.pdf, id=983, 682.55pt x 481.8pt>
+File: Fromstochastic/Figs/SelectionVsRandom.pdf Graphic file (type pdf)
+
+<use Fromstochastic/Figs/SelectionVsRandom.pdf>
+<Fromstochastic/Figs/DifferentialEquationVsStochastic.pdf, id=986, 682.55pt x 4
+81.8pt>
+File: Fromstochastic/Figs/DifferentialEquationVsStochastic.pdf Graphic file (ty
+pe pdf)
+ <use Fromstochastic/Figs/DifferentialEquationVsStochastic.pdf> [44pdfTeX warni
+ng (ext4): destination with the same identifier (name{figure.6.1}) has been alr
+eady used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.185 
+       <./Fromstochastic/Figs/RandomDriftSimulations5.pdf> <./Fromstochastic/Fi
+gs/SelectionVsRandom.pdf>]) [45pdfTeX warning (ext4): destination with the same
+ identifier (name{figure.6.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.103 \include{FromStochastic/chapter5}
+                                        <./Fromstochastic/Figs/DifferentialEqua
+tionVsStochastic.pdf>]
+\openout2 = `NoDeterministic/chapter6.aux'.
+
+ (./NoDeterministic/chapter6.tex
+ 7.
+[46
+
+
+
+] [47]
+<NoDeterministic/Figs/FitnesVsexpression1.png, id=1055, 416.55624pt x 342.27875
+pt>
+File: NoDeterministic/Figs/FitnesVsexpression1.png Graphic file (type png)
+ <use NoDeterministic/Figs/FitnesVsexpression1.png>
+<NoDeterministic/Figs/FitnessVsExpression2.png, id=1056, 172.645pt x 163.61125p
+t>
+File: NoDeterministic/Figs/FitnessVsExpression2.png Graphic file (type png)
+ <use NoDeterministic/Figs/FitnessVsExpression2.png> [48]
+<NoDeterministic/Figs/triangularDistribution.pdf, id=1066, 682.55pt x 481.8pt>
+File: NoDeterministic/Figs/triangularDistribution.pdf Graphic file (type pdf)
+
+<use NoDeterministic/Figs/triangularDistribution.pdf>
+<NoDeterministic/Figs/Rplots.pdf, id=1067, 505.89pt x 505.89pt>
+File: NoDeterministic/Figs/Rplots.pdf Graphic file (type pdf)
+
+<use NoDeterministic/Figs/Rplots.pdf> [49pdfTeX warning (ext4): destination wit
+h the same identifier (name{figure.7.1}) has been already used, duplicate ignor
+ed
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.46 
+      <./NoDeterministic/Figs/FitnesVsexpression1.png (PNG copy)> <./NoDetermin
+istic/Figs/FitnessVsExpression2.png (PNG copy)>]
+<NoDeterministic/Figs/triangularfitness01.pdf, id=1074, 546.00398pt x 426.3646p
+t>
+File: NoDeterministic/Figs/triangularfitness01.pdf Graphic file (type pdf)
+ <use NoDeterministic/Figs/triangularfitness01.pdf>
+<NoDeterministic/Figs/triangularfitness02.pdf, id=1075, 528.59886pt x 446.21034
+pt>
+File: NoDeterministic/Figs/triangularfitness02.pdf Graphic file (type pdf)
+ <use NoDeterministic/Figs/triangularfitness02.pdf>
+<NoDeterministic/Figs/triangularfitness03.pdf, id=1076, 549.22708pt x 427.64488
+pt>
+File: NoDeterministic/Figs/triangularfitness03.pdf Graphic file (type pdf)
+ <use NoDeterministic/Figs/triangularfitness03.pdf>
+<NoDeterministic/Figs/triangularfitness05.pdf, id=1077, 556.9627pt x 394.9954pt
+>
+File: NoDeterministic/Figs/triangularfitness05.pdf Graphic file (type pdf)
+ <use NoDeterministic/Figs/triangularfitness05.pdf> [50pdfTeX warning (ext4): d
+estination with the same identifier (name{figure.7.2}) has been already used, d
+uplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.61 
+      <./NoDeterministic/Figs/triangularDistribution.pdf> <./NoDeterministic/Fi
+gs/Rplots.pdf>]
+<NoDeterministic/Figs/FitnessfunctionSigma.pdf, id=1103, 774.895pt x 652.4375pt
+>
+File: NoDeterministic/Figs/FitnessfunctionSigma.pdf Graphic file (type pdf)
+ <use NoDeterministic/Figs/FitnessfunctionSigma.pdf> [51pdfTeX warning (ext4): 
+destination with the same identifier (name{figure.7.3}) has been already used, 
+duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.75 T
+      he changes in  average fitness of the resulting distribution are a con...
+ <./NoDeterministic/Figs/triangularfitness01.pdf> <./NoDeterministic/Figs/trian
+gularfitness02.pdf> <./NoDeterministic/Figs/triangularfitness03.pdf> <./NoDeter
+ministic/Figs/triangularfitness05.pdf>]
+<NoDeterministic/Figs/humpedright.pdf, id=1445, 562.7644pt x 414.84125pt>
+File: NoDeterministic/Figs/humpedright.pdf Graphic file (type pdf)
+
+<use NoDeterministic/Figs/humpedright.pdf>
+<NoDeterministic/Figs/humpedleft.pdf, id=1446, 593.06204pt x 392.43463pt>
+File: NoDeterministic/Figs/humpedleft.pdf Graphic file (type pdf)
+
+<use NoDeterministic/Figs/humpedleft.pdf> [52pdfTeX warning (ext4): destination
+ with the same identifier (name{figure.7.4}) has been already used, duplicate i
+gnored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.86 T
+      he effects of the asymmetric shapes with growing  noise will be examin...
+ <./NoDeterministic/Figs/FitnessfunctionSigma.pdf>] [53pdfTeX warning (ext4): d
+estination with the same identifier (name{figure.7.5}) has been already used, d
+uplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.98 \end{equation}
+                    <./NoDeterministic/Figs/humpedright.pdf> <./NoDeterministic
+/Figs/humpedleft.pdf>] [54]
+<NoDeterministic/Figs/FixationProVsNoise.pdf, id=1652, 682.55pt x 481.8pt>
+File: NoDeterministic/Figs/FixationProVsNoise.pdf Graphic file (type pdf)
+
+<use NoDeterministic/Figs/FixationProVsNoise.pdf> [55]
+<NoDeterministic/Figs/AveXti700Vsnoise.pdf, id=1661, 682.55pt x 481.8pt>
+File: NoDeterministic/Figs/AveXti700Vsnoise.pdf Graphic file (type pdf)
+
+<use NoDeterministic/Figs/AveXti700Vsnoise.pdf> [56pdfTeX warning (ext4): desti
+nation with the same identifier (name{figure.7.6}) has been already used, dupli
+cate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.162 
+       <./NoDeterministic/Figs/FixationProVsNoise.pdf>]
+<NoDeterministic/Figs/Averagefixationtimervariance1001.pdf, id=1680, 682.55pt x
+ 481.8pt>
+File: NoDeterministic/Figs/Averagefixationtimervariance1001.pdf Graphic file (t
+ype pdf)
+ <use NoDeterministic/Figs/Averagefixationtimervariance1001.pdf>
+<NoDeterministic/Figs/exremeValueFixation.pdf, id=1681, 682.55pt x 481.8pt>
+File: NoDeterministic/Figs/exremeValueFixation.pdf Graphic file (type pdf)
+
+<use NoDeterministic/Figs/exremeValueFixation.pdf>
+<NoDeterministic/Figs/histextremevalue.pdf, id=1682, 536.97917pt x 403.95798pt>
+File: NoDeterministic/Figs/histextremevalue.pdf Graphic file (type pdf)
+<use NoDeterministic/Figs/histextremevalue.pdf> [57pdfTeX warning (ext4): desti
+nation with the same identifier (name{figure.7.7}) has been already used, dupli
+cate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.187 T
+       ime fixation as a function of noise in protein levelpdfTeX warning (ext4
+): destination with the same identifier (name{figure.7.8}) has been already use
+d, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.187 T
+       ime fixation as a function of noise in protein level <./NoDeterministic/
+Figs/AveXti700Vsnoise.pdf> <./NoDeterministic/Figs/Averagefixationtimervariance
+1001.pdf>]
+<NoDeterministic/Figs/TriangularFunction.jpg, id=1712, 682.55pt x 481.8pt>
+File: NoDeterministic/Figs/TriangularFunction.jpg Graphic file (type jpg)
+
+<use NoDeterministic/Figs/TriangularFunction.jpg>
+<NoDeterministic/Figs/triangularfunctionHistogram.pdf, id=1713, 481.54063pt x 4
+47.49072pt>
+File: NoDeterministic/Figs/triangularfunctionHistogram.pdf Graphic file (type p
+df)
+ <use NoDeterministic/Figs/triangularfunctionHistogram.pdf>
+<NoDeterministic/Figs/SigmaVariationLTfitness.pdf, id=1714, 682.55pt x 481.8pt>
+File: NoDeterministic/Figs/SigmaVariationLTfitness.pdf Graphic file (type pdf)
+<use NoDeterministic/Figs/SigmaVariationLTfitness.pdf>
+<NoDeterministic/Figs/nocenteredVsSigma.pdf, id=1715, 682.55pt x 481.8pt>
+File: NoDeterministic/Figs/nocenteredVsSigma.pdf Graphic file (type pdf)
+
+<use NoDeterministic/Figs/nocenteredVsSigma.pdf> [58pdfTeX warning (ext4): dest
+ination with the same identifier (name{figure.7.9}) has been already used, dupl
+icate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.212 R
+       eally it is a function of average fitness of the distribution resulti...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7.10})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.212 R
+       eally it is a function of average fitness of the distribution resulti...
+ <./NoDeterministic/Figs/exremeValueFixation.pdf> <./NoDeterministic/Figs/histe
+xtremevalue.pdf> <./NoDeterministic/Figs/TriangularFunction.jpg> <./NoDetermini
+stic/Figs/triangularfunctionHistogram.pdf>]
+File: NoDeterministic/Figs/FitnessfunctionSigma.pdf Graphic file (type pdf)
+
+<use NoDeterministic/Figs/FitnessfunctionSigma.pdf>
+<NoDeterministic/Figs/AveragetimeFitness.pdf, id=1899, 682.55pt x 481.8pt>
+File: NoDeterministic/Figs/AveragetimeFitness.pdf Graphic file (type pdf)
+
+<use NoDeterministic/Figs/AveragetimeFitness.pdf>
+Overfull \hbox (3.54134pt too wide) in paragraph at lines 215--220
+ []$ 
+ []
+
+[59pdfTeX warning (ext4): destination with the same identifier (name{figure.7.1
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.227 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{figure.7.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.227 \begin{equation}
+                       <./NoDeterministic/Figs/SigmaVariationLTfitness.pdf> <./
+NoDeterministic/Figs/nocenteredVsSigma.pdf> <./NoDeterministic/Figs/Averagetime
+Fitness.pdf>] [60] [61]
+<NoDeterministic/Figs/VarianceNoiseNonoiseAnalytical.pdf, id=1983, 682.55pt x 4
+81.8pt>
+File: NoDeterministic/Figs/VarianceNoiseNonoiseAnalytical.pdf Graphic file (typ
+e pdf)
+ <use NoDeterministic/Figs/VarianceNoiseNonoiseAnalytical.pdf> [62]
+<NoDeterministic/Figs/noisepopulation100.pdf, id=1991, 682.55pt x 481.8pt>
+File: NoDeterministic/Figs/noisepopulation100.pdf Graphic file (type pdf)
+
+<use NoDeterministic/Figs/noisepopulation100.pdf> [63pdfTeX warning (ext4): des
+tination with the same identifier (name{figure.7.13}) has been already used, du
+plicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.317 
+       <./NoDeterministic/Figs/VarianceNoiseNonoiseAnalytical.pdf>]
+<NoDeterministic/Figs/noise10010gammavariance.pdf, id=2017, 682.55pt x 481.8pt>
+File: NoDeterministic/Figs/noise10010gammavariance.pdf Graphic file (type pdf)
+<use NoDeterministic/Figs/noise10010gammavariance.pdf> [64pdfTeX warning (ext4)
+: destination with the same identifier (name{figure.7.14}) has been already use
+d, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.330 
+       <./NoDeterministic/Figs/noisepopulation100.pdf>]
+<NoDeterministic/Figs/VarianceTime10001noise.pdf, id=2043, 682.55pt x 481.8pt>
+File: NoDeterministic/Figs/VarianceTime10001noise.pdf Graphic file (type pdf)
+
+<use NoDeterministic/Figs/VarianceTime10001noise.pdf>
+<NoDeterministic/Figs/AverageTime10001noise.pdf, id=2044, 682.55pt x 481.8pt>
+File: NoDeterministic/Figs/AverageTime10001noise.pdf Graphic file (type pdf)
+
+<use NoDeterministic/Figs/AverageTime10001noise.pdf>
+Overfull \hbox (3.54134pt too wide) in paragraph at lines 332--337
+ []$ 
+ []
+
+[65pdfTeX warning (ext4): destination with the same identifier (name{figure.7.1
+5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.341 
+       <./NoDeterministic/Figs/noise10010gammavariance.pdf>] [66pdfTeX warning 
+(ext4): destination with the same identifier (name{figure.7.16}) has been alrea
+dy used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.362 \end{equation}
+                     <./NoDeterministic/Figs/VarianceTime10001noise.pdf> <./NoD
+eterministic/Figs/AverageTime10001noise.pdf>]) [67]
+\openout2 = `StochasticCooperation/chapter7.aux'.
+
+
+(./StochasticCooperation/chapter7.tex
+ 8.
+
+Package natbib Warning: Citation `Szabo2002' on page 68 undefined on input line
+ 8.
+
+[68
+
+
+
+]
+<StochasticCooperation/Figs/fixprobabilityVsBenefit.pdf, id=2132, 682.55pt x 50
+1.875pt>
+File: StochasticCooperation/Figs/fixprobabilityVsBenefit.pdf Graphic file (type
+ pdf)
+ <use StochasticCooperation/Figs/fixprobabilityVsBenefit.pdf>
+<StochasticCooperation/Figs/fixprobabilityVsmean1Benefit.pdf, id=2133, 697.6062
+5pt x 501.875pt>
+File: StochasticCooperation/Figs/fixprobabilityVsmean1Benefit.pdf Graphic file 
+(type pdf)
+
+<use StochasticCooperation/Figs/fixprobabilityVsmean1Benefit.pdf>
+Overfull \hbox (3.54134pt too wide) in paragraph at lines 29--34
+ []$ 
+ []
+
+
+<StochasticCooperation/Figs/fixprobabilityVsmean0.pdf, id=2134, 682.55pt x 481.
+8pt>
+File: StochasticCooperation/Figs/fixprobabilityVsmean0.pdf Graphic file (type p
+df)
+ <use StochasticCooperation/Figs/fixprobabilityVsmean0.pdf>
+<StochasticCooperation/Figs/fixprobabilityVsmean1Sigmas.pdf, id=2135, 682.55pt 
+x 501.875pt>
+File: StochasticCooperation/Figs/fixprobabilityVsmean1Sigmas.pdf Graphic file (
+type pdf)
+ <use StochasticCooperation/Figs/fixprobabilityVsmean1Sigmas.pdf>
+Overfull \hbox (3.54134pt too wide) in paragraph at lines 40--45
+ []$ 
+ []
+
+[69pdfTeX warning (ext4): destination with the same identifier (name{figure.8.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.49 I
+      t  is seen that initially for a group where there is a defector, this ...
+ <./StochasticCooperation/Figs/fixprobabilityVsBenefit.pdf> <./StochasticCooper
+ation/Figs/fixprobabilityVsmean1Benefit.pdf>]
+<StochasticCooperation/Figs/probaCoopeSinglegroup.pdf, id=2165, 872.25874pt x 5
+26.96875pt>
+File: StochasticCooperation/Figs/probaCoopeSinglegroup.pdf Graphic file (type p
+df)
+ <use StochasticCooperation/Figs/probaCoopeSinglegroup.pdf>
+<StochasticCooperation/Figs/probaCoomixedGroup.pdf, id=2166, 682.55pt x 481.8pt
+>
+File: StochasticCooperation/Figs/probaCoomixedGroup.pdf Graphic file (type pdf)
+
+ <use StochasticCooperation/Figs/probaCoomixedGroup.pdf>
+Overfull \hbox (3.54134pt too wide) in paragraph at lines 51--56
+ []$ 
+ []
+
+) [70pdfTeX warning (ext4): destination with the same identifier (name{figure.8
+.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.105 \include{StochasticCooperation/chapter7}
+                                              pdfTeX warning (ext4): destinatio
+n with the same identifier (name{figure.8.3}) has been already used, duplicate 
+ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.105 \include{StochasticCooperation/chapter7}
+                                               <./StochasticCooperation/Figs/fi
+xprobabilityVsmean0.pdf> <./StochasticCooperation/Figs/fixprobabilityVsmean1Sig
+mas.pdf> <./StochasticCooperation/Figs/probaCoopeSinglegroup.pdf> <./Stochastic
+Cooperation/Figs/probaCoomixedGroup.pdf>]
+\openout2 = `Conclusions/conclusions.aux'.
+
+ (./Conclusions/conclusions.tex
+ 9.
+[71
+
+
+
+]) [72]
+\openout2 = `Appendix1/appendix1.aux'.
+
+ (./Appendix1/appendix1.tex) [73
+
+
+
+
+]
+\openout2 = `Appendix2/appendix2.aux'.
+
+ (./Appendix2/appendix2.tex)
+[74
+
+
+
+] (./thesis.bbl (./thesis.brf)
+\tf@brf=\write7
+\openout7 = `thesis.brf'.
+
+ [75
+
+
+] [76])
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
+[77]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
+ (./thesis.aux (./Dedication/dedication.aux)
+(./Acknowledgement/acknowledgement.aux) (./Abstract/abstract.aux)
+(./Introduction/introduction.aux) (./NaturalSelection/chapter1.aux)
+(./DeterministicModelofReproductionandSelection/chapter2.aux)
+(./MarkovChain/chapter3.aux) (./GameTheory/chapter4.aux)
+(./FromStochastic/chapter5.aux) (./NoDeterministic/chapter6.aux)
+(./StochasticCooperation/chapter7.aux) (./Conclusions/conclusions.aux)
+(./Appendix1/appendix1.aux) (./Appendix2/appendix2.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 1A171DFE0A75F3976F474A772B02AE1B;2277.
+Package rerunfilecheck Info: File `thesis.brf' has not changed.
+(rerunfilecheck)             Checksum: 689737DE86253505FAAC4590601B29CD;2549.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 8001 strings out of 494725
+ 122575 string characters out of 3170734
+ 197426 words of memory out of 3000000
+ 10508 multiletter control sequences out of 15000+200000
+ 15256 words of font info for 57 fonts, out of 3000000 for 9000
+ 188 hyphenation exceptions out of 8191
+ 49i,23n,50p,1320b,506s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2009basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb></usr/local/texlive/2009basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mex10.pfb></usr/local/texlive/2009basic/texmf-dist/fonts/type1/public/amsfonts/
+cmextra/cmex8.pfb></usr/local/texlive/2009basic/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb></usr/local/texlive/2009basic/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2009basic/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2009basic/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2009basic/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2009basic/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2009basic/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2009basic/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2009basic/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2009basic/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2009basi
+c/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2009ba
+sic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2009
+basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2009basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texli
+ve/2009basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
+xlive/2009basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loca
+l/texlive/2009basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on thesis.pdf (89 pages, 2829200 bytes).
+PDF statistics:
+ 2438 PDF objects out of 2487 (max. 8388607)
+ 354 named destinations out of 1000 (max. 500000)
+ 530 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,45 @@
+This is BibTeX, Version 0.99c (TeX Live 2009)
+The top-level auxiliary file: resumen copy.aux
+The style file: plain.bst
+Database file #1: cooperation.bib
+You've used 6 entries,
+            2118 wiz_defined-function locations,
+            549 strings with 5110 characters,
+and the built_in function-call counts, 1984 in all, are:
+= -- 204
+> -- 76
+< -- 0
++ -- 30
+- -- 24
+* -- 168
+:= -- 335
+add.period$ -- 18
+call.type$ -- 6
+change.case$ -- 30
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 66
+empty$ -- 159
+format.name$ -- 24
+if$ -- 397
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 6
+newline$ -- 33
+num.names$ -- 12
+pop$ -- 18
+preamble$ -- 1
+purify$ -- 24
+quote$ -- 0
+skip$ -- 44
+stack$ -- 0
+substring$ -- 168
+swap$ -- 6
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 24
+warning$ -- 0
+while$ -- 24
+width$ -- 7
+write$ -- 68

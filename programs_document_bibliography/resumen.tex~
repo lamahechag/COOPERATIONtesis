@@ -1,0 +1,42 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb,amsmath}
+\usepackage[pdftex]{graphicx}
+\usepackage{color}
+\usepackage{layout}
+
+\hoffset-2.5cm
+\voffset-1.0cm
+\setlength{\textwidth}{17cm}
+\setlength{\textheight}{21.5cm}
+
+\title{Resmen proyecto}
+\author{ A. Mahecha\\Departamento de Fasica\\Universidad de los Andes}
+\date{}
+
+\begin{document}
+\maketitle
+\section{Cooperatividad}
+Estamos acostumbrados a ver que la evolucion es una competencia entre individuosque conlleva a un comportamiento egoista, pero se observa en muchos sistemas biologicos que la evolucion tambien conyeva a comportamientos coopertivos entre individuos. Las condiciones y mecanismos que llevan a la cooperación entre individuos no se han establecido de una manera general, es decir, unas reglas que determinen si un individuo debe cooperar o no dentro de una red. Un ejemplo de cooperatividad en un circuito genetico es cuando un inductor $A$ que se liga al ADN aumenta la rpobabilidad de que el inductor $B$ tambien se pegue.\par
+Una manera de modelar como un organismo decide cooperar o no es con la teoria de juegos de donde utilizamos las matrices de pago ó ganancia, de las cuales se optiene cual es la decisión ó el comportamiento que le da mayor veneficio al individuo en un esenario de competencia.
+\begin{equation*}
+\begin{matrix}
+    & jugador 1 \\
+ jugador 2 & {\bordermatrix{~ & A & B \cr
+                            A & p_{1} & p_2 \cr
+                            B & p_3 & p_4 \cr}} 
+ \end{matrix}
+\end{equation*}
+$A$ y $B$ son las opsiones y las componentes de la matriz el beneficio que optiene el jugador $1$. En la referencia [1] se propone un modelo para el mecanismo de desición entre cooperante ó defector(comportamiento egoista), en el cual se proponen 5 mecanismos de toma de desición: seleccion de parentesco, reciprocidad directa, reciprocidad indirecta, reciprocidad de red selección de grupo. Para cada uno de estos mecanismos se plantea una matriz de pago en donde las opciones son cooperador($C$) ó defector($D$)
+\begin{equation*}
+\begin{matrix}
+    & jugador 1 \\
+ jugador 2 & {\bordermatrix{~ & C & D \cr
+                            C & p_{1} & p_2 \cr
+                            D & p_3 & p_4 \cr}} 
+ \end{matrix}
+\end{equation*}
+y las cantidades de pago son diferentes para cada mecanismo. Ya que el individuo se va a elegir el comportamiento que le de mayor beneficio, este modelo nos sirve para simular la población de cooperantes y de defectores en una red y comparar con datos de algun sistema biologico. 
+\end{document}
+

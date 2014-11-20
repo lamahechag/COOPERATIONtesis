@@ -1,0 +1,62 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb,amsmath}
+\usepackage[pdftex]{graphicx}
+%\usepackage{natbib}
+\usepackage{color}
+\usepackage{layout}
+
+\hoffset-1.5cm
+\voffset-2.5cm
+\setlength{\textwidth}{17cm}
+\setlength{\textheight}{22.5cm}
+\title{Elección de grupo como un mecanismo de evolución de la cooperatividad}
+\author{ Alejandro Mahecha\\Resumen Proyecto de tesis de mestria\\Director: Juan Manuel Pedraza \\Departamento de Física\\Universidad de los Andes}
+\date{Marzo 18 de 2011}
+
+\begin{document}
+\maketitle
+
+La evolución usualmente se describe como una competencia entre individuos que conlleva a un comportamiento egoísta el cual se basa en no generar beneficios para los demás, pero se observa en muchos sistemas biológicos que la evolución también conlleva a comportamientos cooperativos entre individuos, y parasitarios(defector) en donde el individuo solo toma beneficio del resto. Las condiciones y mecanismos que llevan a la cooperación entre individuos no se han establecido de una manera general, es decir, unas reglas que determinen si un individuo debe cooperar con otro ó con la población. Nowak\cite{Nowak2006} propone $5$ reglas para la cooperación: selección de parentesco, reciprocidad directa, reciprocidad indirecta, reciprocidad de red y selección de grupo. Las cuatro primeras tratan cooperación entre individuos como por ejemplo la selección de parentesco, en la cual un individuo coopera con otro dependiendo de que tan cercana sea su relación genética, la ultima regla de cooperación \textit{Selección de grupo} describe la evolución de cooperación entre grupos.\par
+%La competencia entre grupos puede llevar a la selección de un comportamiento cooperativo.\par
+%La selección de grupo es un principio de organización que permite procesos evolutivos\cite{Traulsen2006}.\\
+%que es la selectividad $w$? es la cantidad de población que se eligió cooperante-defector en un anterior paso de tiempo.\par
+La evolución de la elección cooperador-defector se analiza con las matriz de pago de la teoría de juegos, que se plantea como sigue: un cooperador es aquel que paga un costo $c$ para dar un beneficio $b$ a otro individuo\cite{Nowak2006} y un defector es aquel que no da beneficio $b$ a los demás y no paga ningún costo $c$, entonces la matriz entre dos individuos es
+\begin{equation}
+\bordermatrix{~ & C & D \cr
+             C & b-c & -c \cr
+              D & b & 0 \cr} 
+\end{equation}
+en donde cada elemento de la matriz es el pago(payoff) total, beneficio menos el costo del acto altruista, que es benéfico si es mayor que cero y conlleva un costo si es menor que cero. Para cada modelo de evolución de cooperación hay una matriz de pago de las cuales el elemento de pago con mayor beneficio es la elección(ser cooperante o defector) mas atractiva(fitness) para un individuo del grupo. La matriz de pago que propone Nowak para la selección de grupos en una población con $m$ grupos cada uno con $n$ individuos, es
+\begin{equation}
+\bordermatrix{~ & C & D \cr
+             C & m(b-c)+n(b-c) & m(b-c)-nc \cr
+             D & nb & 0 \cr},
+\end{equation}
+en donde la condición para que los cooperantes dominen es $b/c > 1+n/m$.\par
+El modelo de evolución de selección de grupo de Nowak funciona como un \textbf{Proceso de Moran} en los subgrupos de la población. El proceso de Moran consiste en que la población es dividida en $m$ grupos cada uno con un número máximo de $n$ integrantes. El atractivo de cada individuo(elección) es una función del elemento de pago de la matriz de juego. El modelo consiste en que a cada iteración un individuo de la población total se va a escoger para reproducirse con una  probabilidad de reproducción que es proporcional a su atractivo(fitness), el nuevo miembro se agrega al mismo grupo. En cada iteración los grupos que alcanzan el tamaño máximo de integrantes tienen una posibilidad $q$ de repartirse aleatoriamente en dos grupos y eliminar un grupo para mantener los $m$ grupos de la población, y con una probabilidad $q-1$ un miembro del grupo se elige para morir. Este modelo genera selección ya que los grupos que tienen miembros  con un mayor fitness  alcanzan mas rápido el número máximo de integrantes y se dividen con mas frecuencia. ¿Pero qué sucede si un cooperador es introducido a un grupo de defectores?, ¿cuál será la probabilidad de que este genere un linaje y cuál es la probabilidad de que permanezca en el grupo?. Esta probabilidad, llamada de fijación es proporcional al fitness. El fitness de cada individuo cambia en cada paso  y depende de la intensidad de elección que tuvo(defector-cooperador) en el paso anterior\cite{Traulsen2006}.\par
+%Para los individuos de cada grupo la matriz de costo es (1)
+%de donde vemos que el costo para un individuo de un grupo de solo cooperantes es $b-c$ y para uno de solo defectores es $0$, entonces la matriz de costo entre grupos es 
+% \begin{equation}
+%\bordermatrix{~ & C & D \cr
+            % C & b-c & b-c \cr
+             % D & 0 & 0 \cr},
+%\end{equation}
+%multiplicando la matriz (1) por $n$ y la matriz (2) por $m$ y sumándolas obtenemos la matriz de costo de selección de grupo
+%\begin{equation}
+%\bordermatrix{~ & C & D \cr
+  %           C & m(b-c)+n(b-c) & m(b-c)-nc \cr
+    %          D & nb & 0 \cr},
+%\end{equation}
+%en donde la condición para que los cooperantes dominen es $b/c > 1+n/m$.\par
+Utilizando el modelo de Nowak  se va hacer una simulación con el proceso de Moran en la cual se va a medir a cada paso de tiempo cómo va cambiando la población de individuos y grupos cooperantes, ademas de eso se va hacer otra simulación en la cual se introduce al modelo una variabilidad fenotípica a la población, que consiste en que los individuos genéticamente idénticos que cooperan lo hacen en diferentes grados. Adicionalmente se compararan estas simulaciones con un experimento que se esta haciendo con \textit{Escherichia coli}, en donde los individuos son los plásmidos y los grupos las \textit{E.coli}; de manera analoga a los experimentos que se han hecho para estudiar la cooperatividad en el patogeno \textit{Pseudomones aeruginosa}\cite{Dunny2008} y en la levadura \textit{Sacchraromyces cerevisiae}\cite{Gore2009}. En este caso se quiere comparar con los datos de un experimento que se esta haciendo con \textit{Escherichia coli}, en donde los individuos son los plásmidos y los grupos las \textit{E. coli}. Con  base a esta simulación se espera determinar el efecto de la variabilidad fenotípica en la evolución de este tipo de sistemas.
+%\begin{thebibliography}{}
+%\bibitem{Bo} Martin A.Nowak. \textit{Science} \textbf{314}, 1560 (2006).
+%\end{thebibliography}
+%\begin{thebibliography}{}
+\bibliographystyle{plain}
+\bibliography{cooperation}
+%\end{thebibliography}{}
+\end{document}
+

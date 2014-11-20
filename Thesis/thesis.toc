@@ -1,0 +1,34 @@
+\select@language {english}
+\contentsline {chapter}{Contents}{iv}{section*.2}
+\contentsline {chapter}{List of Figures}{vi}{section*.4}
+\contentsline {chapter}{Nomenclature}{x}{section*.4}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Natural Selection and Fitness}{2}{chapter.2}
+\contentsline {chapter}{\numberline {3}Deterministic Model of Reproduction and Selection}{4}{chapter.3}
+\contentsline {section}{\numberline {3.1}Discrete Model}{4}{section.3.1}
+\contentsline {section}{\numberline {3.2}Continuous Model}{5}{section.3.2}
+\contentsline {chapter}{\numberline {4}Markov Chain }{9}{chapter.4}
+\contentsline {section}{\numberline {4.1} Moran process}{9}{section.4.1}
+\contentsline {section}{\numberline {4.2}Neutral Drift}{13}{section.4.2}
+\contentsline {section}{\numberline {4.3}Random Drift}{16}{section.4.3}
+\contentsline {section}{\numberline {4.4}Fixation Times}{18}{section.4.4}
+\contentsline {chapter}{\numberline {5}Game Theory, Cooperation and Fitness}{22}{chapter.5}
+\contentsline {section}{\numberline {5.1}Fitness Due to Cooperate-Defect}{23}{section.5.1}
+\contentsline {section}{\numberline {5.2}Fixation Probability}{26}{section.5.2}
+\contentsline {section}{\numberline {5.3}Fixation Times}{30}{section.5.3}
+\contentsline {section}{\numberline {5.4}Group Selection}{30}{section.5.4}
+\contentsline {chapter}{\numberline {6}From Stochastic Equations to Deterministic Average Equations}{38}{chapter.6}
+\contentsline {section}{\numberline {6.1}A Simple Example: Protein creation and degradation}{39}{section.6.1}
+\contentsline {section}{\numberline {6.2}Average Differential Equations in Evolutionary Dynamics}{41}{section.6.2}
+\contentsline {chapter}{\numberline {7}No Deterministic Fitness due to Internal Gene Expression Noise}{46}{chapter.7}
+\contentsline {section}{\numberline {7.1}Gene Expression Noise in Moran Process}{47}{section.7.1}
+\contentsline {section}{\numberline {7.2}Fitness as a Function of Gene Expression}{47}{section.7.2}
+\contentsline {section}{\numberline {7.3}Fixation Probability}{53}{section.7.3}
+\contentsline {section}{\numberline {7.4}Results}{56}{section.7.4}
+\contentsline {section}{\numberline {7.5}The Fluctuation-Dissipation Theorem}{60}{section.7.5}
+\contentsline {section}{\numberline {7.6}Fluctuation-Dissipation Theorem for Random Drift and Stochastic Fitness}{61}{section.7.6}
+\contentsline {chapter}{\numberline {8}Stochastic Cooperation}{68}{chapter.8}
+\contentsline {chapter}{\numberline {9}Conclusions}{71}{chapter.9}
+\contentsline {chapter}{Appdx A}{73}{appendix*.5}
+\contentsline {chapter}{Appdx B}{74}{appendix*.6}
+\contentsline {chapter}{References}{75}{section*.8}

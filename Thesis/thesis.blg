@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99c (TeX Live 2009)
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: Dedication/dedication.aux
+A level-1 auxiliary file: Acknowledgement/acknowledgement.aux
+A level-1 auxiliary file: Abstract/abstract.aux
+A level-1 auxiliary file: Introduction/introduction.aux
+A level-1 auxiliary file: NaturalSelection/chapter1.aux
+A level-1 auxiliary file: DeterministicModelofReproductionandSelection/chapter2.aux
+A level-1 auxiliary file: MarkovChain/chapter3.aux
+A level-1 auxiliary file: GameTheory/chapter4.aux
+A level-1 auxiliary file: FromStochastic/chapter5.aux
+A level-1 auxiliary file: NoDeterministic/chapter6.aux
+A level-1 auxiliary file: StochasticCooperation/chapter7.aux
+A level-1 auxiliary file: Conclusions/conclusions.aux
+A level-1 auxiliary file: Appendix1/appendix1.aux
+A level-1 auxiliary file: Appendix2/appendix2.aux
+The style file: plain.bst
+Database file #1: References/references.bib
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "Szabo2002"
+Warning--empty year in Antal
+Warning--there's a number but no volume in Paulsson2004
+You've used 26 entries,
+            2118 wiz_defined-function locations,
+            679 strings with 8293 characters,
+and the built_in function-call counts, 7269 in all, are:
+= -- 717
+> -- 326
+< -- 2
++ -- 130
+- -- 104
+* -- 478
+:= -- 1287
+add.period$ -- 78
+call.type$ -- 26
+change.case$ -- 125
+chr.to.int$ -- 0
+cite$ -- 28
+duplicate$ -- 283
+empty$ -- 563
+format.name$ -- 104
+if$ -- 1475
+int.to.chr$ -- 0
+int.to.str$ -- 26
+missing$ -- 29
+newline$ -- 133
+num.names$ -- 52
+pop$ -- 114
+preamble$ -- 1
+purify$ -- 104
+quote$ -- 0
+skip$ -- 193
+stack$ -- 0
+substring$ -- 374
+swap$ -- 34
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 94
+warning$ -- 2
+while$ -- 75
+width$ -- 28
+write$ -- 282
+(There were 4 warnings)

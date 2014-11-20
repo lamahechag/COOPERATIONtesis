@@ -1,0 +1,4 @@
+#
+g++ RandomDrift.cpp
+./a.out > randomdrift.dat
+gnuplot-4.2.5 plot.gnu

@@ -1,0 +1,149 @@
+\begin{thebibliography}{10}
+
+\bibitem{Antal}
+Tibor Antal.
+\newblock {Fixation of strategies for an evolutionary game in finite
+  populations}.
+\newblock {\em ArXiv ID:q-bio/0509008v1}, pages 1--22.
+
+\bibitem{Bower2004}
+By~Bruce Bower.
+\newblock {Bacteria mix mingle with microscopic fervor}.
+\newblock {\em Science News}, 166, 2004.
+
+\bibitem{Dunny2008}
+Gary~M Dunny, Timothy~J Brickman, and Martin Dworkin.
+\newblock {Multicellular behavior in bacteria: communication, cooperation,
+  competition and cheating.}
+\newblock {\em BioEssays : news and reviews in molecular, cellular and
+  developmental biology}, 30(4):296--8, April 2008.
+
+\bibitem{Eldar2010}
+Avigdor Eldar and Michael~B Elowitz.
+\newblock {Functional roles for noise in genetic circuits}.
+\newblock {\em Nature}, 467(7312):167--173, 2010.
+
+\bibitem{Douglas}
+Douglas~J. Futuyma.
+\newblock {\em Evolution}.
+\newblock Sinauer, Sunderland, MA, 2005.
+
+\bibitem{Gardiner}
+C.~W. Gardiner.
+\newblock {\em Handbook of Stochastic Methods}.
+\newblock Springer, Berlin. Germany, 2004.
+
+\bibitem{Goodnight1997a}
+Charles~J Goodnight.
+\newblock {Experimental studies of group selection: what do they tell us about
+  group selection in nature?}
+\newblock {\em The American naturalist}, 150(July), 1997.
+
+\bibitem{Gore2009}
+Jeff Gore, Hyun Youk, and Alexander van Oudenaarden.
+\newblock {Snowdrift game dynamics and facultative cheating in yeast.}
+\newblock {\em Nature}, 459(7244):253--6, May 2009.
+
+\bibitem{Hilfinger2011}
+Andreas Hilfinger and Johan Paulsson.
+\newblock {Separating intrinsic from extrinsic fluctuations in dynamic
+  biological systems}.
+\newblock {\em PNAS}, 2011(9), 2011.
+
+\bibitem{Kahn2010}
+Daniel Kahn, Laurent Duret, and Post-genomics Consortium.
+\newblock {The Relationship among Gene Expression , the Evolution of Gene
+  Dosage , and the Rate of Protein Evolution}.
+\newblock {\em PLoS Genetics}, 6(5), 2010.
+
+\bibitem{Kampen}
+Van Kampen.
+\newblock {\em Stochastic processes in Physics and Chemistry}.
+\newblock Elsevier, North-Holland, Amsterdam, 1992.
+
+\bibitem{Mettetal2008}
+Jerome~T Mettetal, Dale Muzzey, Juan~M Pedraza, Ertugrul~M Ozbudak, and
+  Alexander~Van Oudenaarden.
+\newblock {Predicting stochastic gene expression dynamics in single cells}.
+\newblock {\em PNAS}, 2008.
+
+\bibitem{NowakBook}
+Martin~A. Nowak.
+\newblock {\em Evolutionary Dynamics: Exploring the Equations of Life}.
+\newblock The Belknap Press of Harvard University Press, Cambrige,
+  Massachusetts, 2006.
+
+\bibitem{Nowak2011}
+Martin~A Nowak and Martin~A Nowak.
+\newblock {Five Rules for the Evolution of Cooperation}.
+\newblock {\em Science}, 1560(2006), 2011.
+
+\bibitem{Paulsson2004}
+Johan Paulsson.
+\newblock {Summing up the noise in gene networks}.
+\newblock {\em Nature}, (1):415--418, 2004.
+
+\bibitem{Paulsson2005}
+Johan Paulsson.
+\newblock {Models of stochastic gene expression}.
+\newblock {\em Physics of Life Reviews}, 2:157--175, 2005.
+
+\bibitem{Pedraza1}
+Juan~M. Pedraza and Alexander van Oudenaarden.
+\newblock Notes on {Noise} {In} {Gene} {Regulatory} {Network}.
+\newblock Lecture Notes, MIT, Department of Physics, System Biology Course,
+  2005.
+
+\bibitem{Sean}
+Sean~H. Rice.
+\newblock {\em Evolutionary Theory: Mathemtical and Conceptual Fundations}.
+\newblock Sinauer, Sunderland, MA, 2004.
+
+\bibitem{Shoresh2011}
+Noam Shoresh, Martin~A Nowak, Citable Link, Arne Traulsen, Noam Shoresh, and
+  Martin~A Nowak.
+\newblock {Analytical Results for Individual and Group Selection of Any
+  Intensity Citation Accessed Analytical results for individual and group
+  selection of any intensity}.
+\newblock {\em Science}, 2011.
+
+\bibitem{Thattai}
+Mukurd. Thattai.
+\newblock Notes on {The} {Origin} {and} {Consequences} {of} {Noise} {in}
+  {Biochemical} {Systems}.
+\newblock Lecture Notes MIT course material(8-591) on Systems Biology,
+  Department of Physics, Cambrige, MA.
+
+\bibitem{Traulsen2005a}
+Arne Traulsen, Jens~Christian Claussen, and Christoph Hauert.
+\newblock {Coevolutionary Dynamics: From Finite to Infinite Populations}.
+\newblock {\em arXiv:cond-mat/0409655v3}, 238701:1--4, 2005.
+
+\bibitem{Traulsen2009}
+Arne Traulsen and Christoph Hauert.
+\newblock {Stochastic evolutionary game dynamics}.
+\newblock {\em Arxiv ID 0811.3538v1}, II(trrewwqqqqqqq):WAWQAQDF, 2009.
+
+\bibitem{Traulsen2006a}
+Arne Traulsen and Martin~A Nowak.
+\newblock {Evolution of cooperation by multilevel selection}.
+\newblock {\em PNAS}, 2006(Track II), 2006.
+
+\bibitem{Traulsen2005}
+Arne Traulsen, Anirvan~M Sengupta, and Martin~A Nowak.
+\newblock {Stochastic evolutionary dynamics on two levels}.
+\newblock {\em Journal of Theoretical Biology}, 235:393--401, 2005.
+
+\bibitem{Wade1976}
+M.~J. Wade.
+\newblock {Group Selection among Laboratory Populations of Tribolium}.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  73(12):4604--4607, December 1976.
+
+\bibitem{Wang2011}
+Zhi Wang and Jianzhi Zhang.
+\newblock {Impact of gene expression noise on organismal fitness and the
+  efficacy of natural selection}.
+\newblock {\em PNAS}, pages 1--10, 2011.
+
+\end{thebibliography}

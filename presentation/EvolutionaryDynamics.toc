@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.07pt}
+\select@language {english}
+\beamer@sectionintoc {2}{Natural Selection and Fitness}{3}{0}{1}
+\beamer@sectionintoc {3}{Deterministic Model of Reproduction and Selection}{14}{0}{2}
+\beamer@sectionintoc {4}{Markov Chain and Moran Process}{17}{0}{3}
+\beamer@sectionintoc {5}{Game Theory, Cooperation and Fitness}{24}{0}{4}
+\beamer@sectionintoc {6}{Stochastic Fitness}{26}{0}{5}

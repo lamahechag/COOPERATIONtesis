@@ -1,0 +1,33 @@
+\BOOKMARK [0][]{section*.2}{Contents}{}% 1
+\BOOKMARK [0][]{section*.4}{List of Figures}{}% 2
+\BOOKMARK [0][]{section*.4}{Nomenclature}{}% 3
+\BOOKMARK [0][]{chapter.1}{1 Introduction}{}% 4
+\BOOKMARK [0][]{chapter.2}{2 Natural Selection and Fitness}{}% 5
+\BOOKMARK [0][]{chapter.3}{3 Deterministic Model of Reproduction and Selection}{}% 6
+\BOOKMARK [1][]{section.3.1}{3.1 Discrete Model}{chapter.3}% 7
+\BOOKMARK [1][]{section.3.2}{3.2 Continuous Model}{chapter.3}% 8
+\BOOKMARK [0][]{chapter.4}{4 Markov Chain }{}% 9
+\BOOKMARK [1][]{section.4.1}{4.1 \040Moran process}{chapter.4}% 10
+\BOOKMARK [1][]{section.4.2}{4.2 Neutral Drift}{chapter.4}% 11
+\BOOKMARK [1][]{section.4.3}{4.3 Random Drift}{chapter.4}% 12
+\BOOKMARK [1][]{section.4.4}{4.4 Fixation Times}{chapter.4}% 13
+\BOOKMARK [0][]{chapter.5}{5 Game Theory, Cooperation and Fitness}{}% 14
+\BOOKMARK [1][]{section.5.1}{5.1 Fitness Due to Cooperate-Defect}{chapter.5}% 15
+\BOOKMARK [1][]{section.5.2}{5.2 Fixation Probability}{chapter.5}% 16
+\BOOKMARK [1][]{section.5.3}{5.3 Fixation Times}{chapter.5}% 17
+\BOOKMARK [1][]{section.5.4}{5.4 Group Selection}{chapter.5}% 18
+\BOOKMARK [0][]{chapter.6}{6 From Stochastic Equations to Deterministic Average Equations}{}% 19
+\BOOKMARK [1][]{section.6.1}{6.1 A Simple Example: Protein creation and degradation}{chapter.6}% 20
+\BOOKMARK [1][]{section.6.2}{6.2 Average Differential Equations in Evolutionary Dynamics}{chapter.6}% 21
+\BOOKMARK [0][]{chapter.7}{7 No Deterministic Fitness due to Internal Gene Expression Noise}{}% 22
+\BOOKMARK [1][]{section.7.1}{7.1 Gene Expression Noise in Moran Process}{chapter.7}% 23
+\BOOKMARK [1][]{section.7.2}{7.2 Fitness as a Function of Gene Expression}{chapter.7}% 24
+\BOOKMARK [1][]{section.7.3}{7.3 Fixation Probability}{chapter.7}% 25
+\BOOKMARK [1][]{section.7.4}{7.4 Results}{chapter.7}% 26
+\BOOKMARK [1][]{section.7.5}{7.5 The Fluctuation-Dissipation Theorem}{chapter.7}% 27
+\BOOKMARK [1][]{section.7.6}{7.6 Fluctuation-Dissipation Theorem for Random Drift and Stochastic Fitness}{chapter.7}% 28
+\BOOKMARK [0][]{chapter.8}{8 Stochastic Cooperation}{}% 29
+\BOOKMARK [0][]{chapter.9}{9 Conclusions}{}% 30
+\BOOKMARK [0][]{appendix*.5}{Appdx A}{}% 31
+\BOOKMARK [0][]{appendix*.6}{Appdx B}{}% 32
+\BOOKMARK [0][]{section*.8}{References}{}% 33

@@ -1,0 +1,49 @@
+//Programa basico de evolucion de cooperacion para 1 generacion
+#include <iostream> 
+#include<string>
+#include<fstream>
+#include<iomanip>
+#include <ctime> 
+#include <cstdlib> 
+#include<cmath>
+using namespace std; 
+int main () 
+{
+ 
+ double randomr, randomk;
+ // Parametros de la matriz
+ double R=1, S=0.1, T=0.5, P=0, x,X,Pc,Pd, pro;
+ 
+ // 0 defect, 1 cooperate: los valores de las componentes de los vectores
+  double A[1000], A1[1000], B[100],B1[100];
+  //randomr = (rand()%99)+1;
+  //randomk = (rand()%99)+1;
+
+ srand((unsigned)time(0));
+  for(int se=0;se<10;se++)
+  {
+       A1[se]=1;	
+  }
+for(int t=0;t<100;t++)
+{
+  x=0;
+  for(int a=0;a<1000;a++)
+    { 
+     if(A1[a]==1) x=x+1;
+    }
+   X=x/1000;
+   cout<<t<<" "<<X<<" "<<1-X<<endl;
+   Pc=((x-1)*R+(1000-x)*S)/999; Pd=(x*T + (999-x)*P)/999; 
+   pro=Pc/(Pc+Pd);
+  for(int b=0;b<1000;b++)
+    {   
+     randomr = (rand()%99)+1;
+     randomk=randomr/100;   
+     if( randomk < pro) A1[b]=1;
+     else A1[b]=0; 
+    }
+  //for(int n=0;n<100; n++) { cout<<A1[n]<<endl;} 
+  
+}
+return 0;
+}

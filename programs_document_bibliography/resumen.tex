@@ -1,0 +1,151 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb,amsmath}
+\usepackage[pdftex]{graphicx}
+%\usepackage{natbib}
+\usepackage{color}
+\usepackage{layout}
+\usepackage{float}
+\hoffset-1.5cm
+\voffset-1.5cm
+\setlength{\textwidth}{17cm}
+\setlength{\textheight}{21.5cm}
+
+\title{Selección de grupo como un mecanismo de evolución de la cooperatividad}
+\author{Luis Alejandro Mahecha\\Proyecto de Tesis de Maestria en Ciencias Física\\Departamento de Física\\Tutor: Juan Manuel Pedraza\\Grupo de Biofísica\\Universidad de los Andes}
+\date{}
+
+\begin{document}
+\maketitle
+\section{Introducción}
+La evolución usualmente se describe como una competencia entre individuos que conlleva a un comportamiento egoísta, pero se observa en muchos sistemas biológicos que la evolución también conlleva a comportamientos cooperativos entre individuos. Estos a su vez pueden ser invadidos por comportamientos parasitarios(defectores) en donde el individuo recibe el  beneficio de los demás sin contribuir. Las condiciones y mecanismos que llevan a la cooperación entre individuos no se han establecido de una manera general, es decir, no conocemos las reglas que determinen cuándo un individuo debe cooperar con otro ó con la población. Nowak\cite{Nowak2006} propone $5$ reglas para la  evolución de la cooperación basadas en la teoría de juegos: selección de parentesco, reciprocidad directa, reciprocidad indirecta, reciprocidad de red y selección de grupo. Las cuatro primeras tratan sobre la cooperación entre individuos de un mismo grupo, como por ejemplo la selección de parentesco, en la cual un individuo coopera con otro dependiendo de qué tan cercana sea su relación genética. La última regla de cooperación, \textit{Selección de grupo}, describe la evolución de cooperación entre individuos en un grupo que están compitiendo con otros grupos.\par
+El modelo de selección de grupo de Nowak esta basado en un grado de cooperación fijo para cada individuo o genotipo, pero en un sistema biológico real cada individuo va a cooperar a un nivel diferente debido a la variabilidad fenotípica, incluso para grupos isogénicos. Agregar la variabilidad fenotípica al modelo de Nowak permite un acercamiento más realista a la evolución de la cooperación, y simulaciones detalladas de la competencia entre poblaciones de cooperadores y defectores permitiría evaluar la importancia de la variabilidad fenotipica en este proceso evolutivo y la utilidad de la variabilidad fenotípica como estrategia.
+\section{Estado del Arte}
+La cooperación entre individuos se ha estudiado en el comportamiento social de insectos y vertebrados, pero en la última década el comportamiento cooperativo-parasitario ha sido objeto de estudio principalmente en microorganismos dando lugar a ramas como la socio-microbiología. Esto gracias a que el estudio del comportamiento social en bacterias permite facilitar el control de las condiciones del experimento a comparación de los estudios con animales\cite{Bower}. En infecciones como la \textit{Pseudomones aeruginosa} que utiliza señales químicas para generar enzimas para procesar fuentes de alimento para toda la población\cite{Dunny2008}, entender los mecanismos de cooperación sirve para crear estrategias que disminuyan el crecimiento de esta bacteria. En general los investigadores podrían crear métodos para romper los lazos sociales entre bacterias y entonces neutralizar el crecimiento virulento\cite{Bower}.\par
+El estudio de estas estrategias sociales que bacterias y animales utilizan para obtener mayores beneficios ha hecho que a la biología se introduzcan modelos de la teoría de juegos para describir de manera cuantitativa la evolución de estas estrategia. Experimentalmente solo se han hecho un par de estudios, casi exclusivamente los realizados por Wade desde 1977 sobre \textit{Tribolium castaneum}(escarabajo rojo de la harina). También en 1996 Muri hizo un estudio experimental sobre gallinas como una primera aplicación comercial de la selección de grupo en animales. En la ultima década, nowak ha hecho estudios teóricos de simulaciones y modelos analíticos con cooperación constante  
+%Las mutaciones cooperador-defector, se dan dependiendo de cual sea favorable, experimentos y simulaciones de evolución de mutaciones favorables se han hecho en mutaciones sexuales sobre \textit{E. coli}.
+\section{Marco Teórico}
+La evolución de la cooperación se puede modelar con la teoría de juegos en la cual se plantean las matrices de juego, de las cuales se obtienen cuál es la decisión que le da mayor beneficio da al individuo en un escenario dentro de la población. La matriz de pago entre dos jugadores en un escenario donde cada uno tiene dos elecciones es,
+\begin{equation*}
+\begin{matrix}
+    & jugador 1 \\
+ jugador 2 & {\bordermatrix{~ & A & B \cr
+                            A & p_{1} & p_2 \cr
+                            B & p_3 & p_4 \cr}} 
+ \end{matrix}
+\end{equation*}
+donde $A$ y $B$ son las opciones de juego y las componentes de la matriz el beneficio total que obtiene el jugador $1$. Nowak\cite{Nowak2006} propone un modelo para el mecanismo de decisión entre cooperante o defector(comportamiento egoista), en el cual se proponen 5 mecanismos de toma de decisión: selección de parentesco, reciprocidad directa, reciprocidad indirecta, reciprocidad de red y selección de grupo. Para cada uno de estos mecanismos se plantea una matriz de pago como (1) en donde las opciones de juego son cooperador($C$) o defector($D$),
+y las cantidades de pago son diferentes para cada mecanismo. Ya que el individuo va a elegir el comportamiento que le de mayor beneficio total, este modelo es util para simular la población de cooperantes y de defectores en una red y comparar con datos de algún sistema biológicos.\par
+La matriz de pago entre cooperador y defector se plantea como sigue: un cooperador es aquel que paga un costo $c$ para dar un beneficio $b$ a otro individuo\cite{Nowak2006a} y un defector es aquel que no da beneficio $b$ a los demás y no paga ningún costo $c$, entonces la matriz entre dos individuos es
+\begin{equation}
+\bordermatrix{~ & C & D \cr
+             C & b-c & -c \cr
+              D & b & 0 \cr} 
+\end{equation}
+en donde cada elemento de la matriz es el pago(payoff) total, beneficio menos el costo del acto altruista, que es benéfico si es mayor que cero y conlleva un costo si es menor que cero. Para cada modelo de evolución de cooperación hay una matriz de pago de las cuales el elemento de pago con mayor beneficio es la elección(ser cooperante o defector) mas atractiva(fitness) para un individuo del grupo.\par
+ Los defectores toman los beneficios de los cooperantes y no contribuyen ningún bien a la población, esto los favorece en la baja inversión de energía  para sostenerse, esto hace mas predominante al defector ya que tiene un mayor fitness de competiividad  comparados con los individuos cooperantes. Este predominio de individuos defectores llevará a un déficit de bienes públicos que son necesarios para el sostenimiento y el crecimiento de la población, es decir, solo pocos individuos estarán produciendo beneficios, lo cual no alcanza a suplir la demanda de la población\cite{Dunny2008}. 
+\subsection{Selección de relativos}
+En la teoría de la evolución se ha propuesto que el parentesco(relación genética cercana) conlleva a la cooperatiividad de modo que un individuo que ayuda a un pariente para que este pueda  generar copies de sus genes que el cooperante también tiene\cite{Bower}. Este tipo de selección de cooperación consiste en la relación de parentesco $r$ entre individuos que varia entre $0-1$ y entonces el pago total que obtiene  el gen cuando un individuo ayuda a un pariente es su propio pago mas el producto de la relación $r$ y el pago recibido por el relativo:
+\begin{equation}
+\bordermatrix{~ & C & D \cr
+             C & b-c + r(b-c) & -c + br \cr
+              D & b - cr & 0 \cr} 
+\end{equation}
+\subsection{Selección de grupo}
+La selección no solamente se da sobre individuos, también actúa sobre los grupos de una población. En la naturaleza se observa que los lazos genéticos no siempre dan paso a la cooperación, por ejemplo Griffin dice que cuando las bacterias compiten por fuentes de alimento en crisis la cooperación entre estas se  deshace aun entre relativos. En contraste la cooperación se da cuando diferentes grupos compiten por una fuente común\cite{Bower}.\par
+%La competencia entre grupos puede llevar a la selección de un comportamiento cooperativo.\par
+%La selección de grupo es un principio de organización que permite procesos evolutivos\cite{Traulsen2006}.\\
+%que es la selectividad $w$? es la cantidad de población que se eligió cooperante-defector en un anterior paso de tiempo.\par
+Para modelar como la elección de cooperatividad evoluciona en una población esta es dividida en $m$ grupos cada uno con un número máximo de $n$ integrantes. La utilidad(fitness) de cada individuo es una función del elemento de pago de la matriz de juego. El modelo consiste en un \textbf{Proceso de Moran} en  el que a cada iteración un individuo de la población total se va a escoger para reproducirse con una  probabilidad de reproducción que es proporcional a su atractivo(fitness), el nuevo miembro se agrega al mismo grupo. En cada iteración los grupos que alcanzan el tamaño máximo de integrantes tienen una posibilidad $q$ de repartirse aleatoriamente en dos grupos y eliminar un grupo para mantener los $m$ grupos de la población, y con una probabilidad $q-1$ un miembro del grupo se elige para morir. Este modelo genera selección ya que los grupos que tienen miembros  con un mayor fitness  alcanzan mas rápido el número máximo de integrantes y se dividen con mas frecuencia. ¿Pero qué sucede si un cooperador es introducido a un grupo de defectores?, ¿cuál será la probabilidad de que este genere un linaje ? y ¿cuál es la probabilidad de que permanezca en el grupo?. El fitness de cada individuo cambia en cada paso  y depende de la intensidad de selección(cantidad que se eligió morir)  en el paso anterior\cite{Traulsen2006}.\par
+Para los individuos de cada grupo la matriz de costo es 
+ \begin{equation}
+\bordermatrix{~ & C & D \cr
+             C & b-c & -c \cr
+              D & b & 0 \cr},
+\end{equation}
+de donde vemos que el costo para un individuo de un grupo de solo cooperantes es $b-c$ y para uno de solo defectores es $0$, entonces la matriz de costo entre grupos es 
+ \begin{equation}
+\bordermatrix{~ & C & D \cr
+             C & b-c & b-c \cr
+              D & 0 & 0 \cr},
+\end{equation}
+multiplicando la matriz (3) por $n$ y la matriz (4) por $m$ y sumándolas obtenemos la matriz de costo de selección de grupo
+\begin{equation}
+\bordermatrix{~ & C & D \cr
+             C & m(b-c)+n(b-c) & m(b-c)-nc \cr
+              D & nb & 0 \cr},
+\end{equation}
+en donde la condición para que los cooperantes dominen es $b/c > 1+n/m$.\par
+En un grupo mixto los defectores se benefician de los cooperantes, entonces los defectores tienen un payoff mayor que el de los cooperadores en grupos mixtos, pero en grupos homogéneos los cooperadores tienen una  mayor utilidad(payoff). Esto lleva a la definición de la probabilidad de fijación $\rho_C$ de que un cooperador agregado a una población de defectores, conlleve a un linaje que remplace todos los defectores e la población entera. Del mismo modo también se define la probabilidad de fijación $\rho_{D}$ de un defector. La manera de calcular la probabilidad de fijación en la población es calculando la probabilidad de fijación $\phi$ de un individuo dentro de un grupo y multiplicarla por la probabilidad $\Phi$ de este grupo dentro la población total.\par
+El fitness se calcula de la siguiente manera. En un grupo de tamaño $n$ con $i$ cooperadores y $n-i$ defectores con una matriz de costo
+\begin{equation}
+\bordermatrix{~ & C & D \cr
+             C & R & S \cr
+              D & T & P \cr},
+\end{equation}
+  en donde los elementos de la matriz cumplen la siguiente relación $T>R>P>S$. El fitness de cooperadores $f_{C}(i)$ y de defectores $f_{D}(i)$ depende de la fracción $w$ de la población que murió en el paso anterior(intensidad de selección) y de la población de estos en el grupo,
+ \begin{equation}
+ f_{C}(i)=1-w+w\frac{R(i-1)+S(n-i)}{n-1}
+ \end{equation}
+  \begin{equation}
+ f_{D}(i)=1-w+w\frac{Ti+P(n-i-1)}{n-1}.
+ \end{equation}
+  A cada iteración, cada individuo en ele grupo es escogido aleatoriamente con una probabilidad proporcional a su fitness. Trauslen y Nowak\cite{Traulsen2006} encuentran que las probabilidades de fijación individual y grupal para cooperadoes, son respectivamente:
+ \begin{equation}
+ \phi_{C}=\frac{1}{n}(1 -\frac{w}{2}(b-cn-c))
+ \end{equation}  
+ \begin{equation}
+ \Phi_{C}=\frac{1}{m}(1 -\frac{w}{2}(b-c)(m-1))
+ \end{equation}
+%\begin{thebibliography}{}
+%\bibitem{Bo} Martin A.Nowak. \textit{Science} \textbf{314}, 1560 (2006).
+%\end{thebibliography}
+%\begin{thebibliography}{}
+\section{Objetivos}
+Utilizando el modelo de Nowak  se va hacer una simulación con el proceso de Moran en la cual se va a medir a cada paso de tiempo cómo va cambiando la población de individuos y grupos cooperantes, ademas de eso se va hacer otra simulación en la cual se introduce al modelo una variabilidad fenotípica a la población, que consiste en que los individuos genéticamente idénticos que cooperan lo hacen en diferentes grados.
+\subsection{General}
+Estudiar com es afectada la evolución de la cooperatividad si se implementa una variabilidad fenotípica en la población, mirando si el criterio analitico es el mismo propuesto por Nowak en ambos casos.
+\subsection{Específicos}
+\begin{itemize}
+\item Implementar una simulación del proceso de moran en c++, para la evolución de la cooperatividad por selección de grupo con cooperacion uniforme en la población.
+\item  modificar el código para que tenga variabilidad fenotípica(cooperación variable entre individuos).
+\item Estudiar un modelo analítico con aproximaciones para comparar resultados con los de la simulación. 
+\end{itemize}
+
+\section{Metodología}
+Implementación del proceso de Moran para selección de grupo en el lenguaje de programación C++, en donde a cada paso un individuo sera escogido aleatoriamente con una probabilidad con una probabilidad proporcional al fitness de su grupo.% donde la población se utilizara con un numero de $N_e=2\times10^6$ con un número de corridas de $1000$ veces\cite{Hegreness2006} para medir la población es predominante en el estado estable.\par
+Las condiciones iniciales de la simulación se especifican en el programa de acuerdo a las condiciones que usualmente se encuentran en experimentos con bacterias, como el numero inicial de bacterias y la variabilidad fenotípica de la población. El número de bacterias en el inicio de un experimento es del orden de  $10000$ que seria el número de grupos y caca bacteria tiene alrededor de $30$ plasmidos que son los individuos.  
+Se buscara con  la simulación el número de iteraciones necesario para que el sistema llegue a un estado estable, en ese estado estable alguno de los dos comportamientos(defector-cooperador) predomina en la población final, pero con una sola ejecución del programa no es posible asumir el predominante, para esto se ejecuta el programa varias veces y se mide el que predomine mas veces en todas las ejecuciones. Una referencia para estos parametros es la de Noham et al\cite{Hegreness2006}en donde hacen una simulación de $1000$ ejecuciones con una población inicial de $2\times10^6$ individuos, para estudiar la evolución de la población sexual del estado estable en \textit{E. coli}.  \par
+El modelo analítico se basa en aproximaciones para calcular cantidades del sistema, las cuales se van a medir en la simulación estos se comparan con el objetivo de asegurar el funcionamiento correcto de la simulación. 
+\section{Cronograma de actividades}
+El cronograma de actividades se va a dividir en $6$ bimestres, como se muestra en la siguiente tabla:
+\begin{figure}[H]
+    \begin{tabular}{ | p{6cm}| c | c | c | c | c | c |}
+    \hline
+  \textbf{Actividad} & {\scriptsize Bimestre 1}& {\scriptsize Bimestre 2} & {\scriptsize Bimestre 3} & {\scriptsize Bimestre 4}& {\scriptsize Bimestre 5} & {\scriptsize Bimestre 6} 
+\\ \hline
+Modelo analítico  para calcular las variables del sistema, como  la distribución inicial de cooperación& $\surd$& $\surd$& $\surd$& $\surd$& &  \\
+\hline
+Escribir en c++ un proceso de Moran para cooperación constante. & $\surd$ & & & & &  \\
+\hline
+Implementación de las variables correctas de condiciones iniciales, y determinar el tiempo correcto para la estabilidad y el número de ejecuciones para establecer el predominante(cooperador-defector).  & & $\surd$& & & &  \\
+\hline
+Introducir al código una variabilidad fenotípica inicial y a cada instante de creación & & $\surd$& $\surd$& & &  \\
+\hline
+Análisis  de resultados. Comparación con los criterios de predominancia de Nowak para variabilidad y no variabilidad en la simulación.& & & & &$\surd$ &  \\
+\hline
+Escritura del documento & $\surd$& $\surd$& $\surd$& $\surd$& $\surd$& $\surd$ \\
+ \hline
+ \end{tabular}
+\end{figure}
+
+
+
+\section{Resultados esperados}
+Se espera desarrollar un modelo analitico que permita evaluar los costos y beneficios de la cooperación en una población no uniforme. Se espera tambien determinar a partir de simulaciones cual es el efecto de la variabilidad fenotípica en la estabilidad evolutiva de comportamientos cooperativos, así como evaluar la variabilidad fenotípica como estrategia evolutiva. Adicionalmente,  se pretende utilizar dichas simulaciones para guiar el diseño de futuros experimentos a realizar con plasmidos como individuos y bacterias como grupos.
+\bibliographystyle{plain}
+\bibliography{cooperation}
+%\end{thebibliography}{}
+\end{document}
+

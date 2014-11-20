@@ -1,0 +1,29 @@
+\def\baselinestretch{1}
+\chapter{Conclusions}
+\ifpdf
+    \graphicspath{{Conclusions/ConclusionsFigs/PNG/}{Conclusions/ConclusionsFigs/PDF/}{Conclusions/ConclusionsFigs/}}
+\else
+    \graphicspath{{Conclusions/ConclusionsFigs/EPS/}{Conclusions/ConclusionsFigs/}}
+\fi
+
+\def\baselinestretch{1.66}
+
+
+ \begin{itemize}
+             \item The mean time of fixation is not affected if fitness is a linear function of protein expression, and protein distribution is symetric.
+             \item The mean fixation time is affected when the fitness is not a linear function of protein expression, and it is longer when genetic noise is larger. But if we see the distribution fitness that result from the fitness function, the mean fitness determines the average time fixation. This means that the fitness standard deviation dose not affect.
+             \item  In group selection when all the initial groups are homogeneous, the fixation of probability dose not depend on the benefit(Figure 15), but as it is seen in (Figure 17) when there is an initial mixed group fixation probability is affected by benefit. 
+             \item  In (Figure16) is observed the first level of cooperation, where cooperator are fitter as the benefit increase. From Figures (16 and 17) is observed that the two levels of selection have different behavior  as a function of benefit.   
+             \item Propose   a new way for simulate group selection and the dilemma of cooperate or defect. Where the benefit of cheating can be seen more clearly.     
+             \item Fitness noise have considerable effects on the fixation probabilities in random drift when fitness distribution is asymmetric, as gamma distribution, where was observed that fixation probability decreased as  fitness variance increased.  For gaussian distributions the effects of noise are too small to be considered. Furthermore, depending on the symmetry  of fitness distribution, noise can favor fixation probability, if this is such that most of individuals have a fitness larger than the average of the distribution. 
+              \end{itemize}
+
+Cosas por hacer : graficas de $\sigma^{2}$ vs $t$, Resolver ecuacion de $\sigma_{xx}, \sigma_{pp}$, $\rho_{i}$ $T_{i}$ analitico estocastico.
+%%% ----------------------------------------------------------------------
+
+% ------------------------------------------------------------------------
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "../thesis"
+%%% End: 
